@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_tUtT8BeJEeaSnPa8lPs-cw" defaultContext="Default">
+  <context xmi:id="_tUtT8ReJEeaSnPa8lPs-cw" confirmationNeeded="false" name="Default"/>
+  <parameters xmi:id="_tUtT8heJEeaSnPa8lPs-cw">
+    <elementParameter xmi:id="_tUtT8xeJEeaSnPa8lPs-cw" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_tUtT9BeJEeaSnPa8lPs-cw" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_tUtT9ReJEeaSnPa8lPs-cw" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT9heJEeaSnPa8lPs-cw" field="TEXT" name="PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT9xeJEeaSnPa8lPs-cw" field="TEXT" name="HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT-BeJEeaSnPa8lPs-cw" field="TEXT" name="HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT-ReJEeaSnPa8lPs-cw" field="TEXT" name="ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT-heJEeaSnPa8lPs-cw" field="TEXT" name="NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT-xeJEeaSnPa8lPs-cw" field="TEXT" name="USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT_BeJEeaSnPa8lPs-cw" field="TEXT" name="GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT_ReJEeaSnPa8lPs-cw" field="TEXT" name="USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT_heJEeaSnPa8lPs-cw" field="TEXT" name="KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_tUtT_xeJEeaSnPa8lPs-cw" field="TEXT" name="KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_tUtUABeJEeaSnPa8lPs-cw" field="TEXT" name="ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_tUtUAReJEeaSnPa8lPs-cw" field="TEXT" name="NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_tUtUAheJEeaSnPa8lPs-cw" field="TEXT" name="JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_tUtUAxeJEeaSnPa8lPs-cw" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <routinesParameter xmi:id="_tUtUBBeJEeaSnPa8lPs-cw" id="__utwwARrEeGb2dr9_uAKEQ" name="DataOperation"/>
+    <routinesParameter xmi:id="_tUtUBReJEeaSnPa8lPs-cw" id="__v3AQARrEeGb2dr9_uAKEQ" name="Mathematical"/>
+    <routinesParameter xmi:id="_tUtUBheJEeaSnPa8lPs-cw" id="__wCmcARrEeGb2dr9_uAKEQ" name="Numeric"/>
+    <routinesParameter xmi:id="_tUtUBxeJEeaSnPa8lPs-cw" id="__wWIcARrEeGb2dr9_uAKEQ" name="Relational"/>
+    <routinesParameter xmi:id="_tUtUCBeJEeaSnPa8lPs-cw" id="_Q58CMB_tEeGxipE2QhRsgA" name="SQLike"/>
+    <routinesParameter xmi:id="_tUtUCReJEeaSnPa8lPs-cw" id="__wstwARrEeGb2dr9_uAKEQ" name="StringHandling"/>
+    <routinesParameter xmi:id="_tUtUCheJEeaSnPa8lPs-cw" id="__xEhMARrEeGb2dr9_uAKEQ" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_tUtUCxeJEeaSnPa8lPs-cw" id="__xR8kARrEeGb2dr9_uAKEQ" name="TalendDate"/>
+    <routinesParameter xmi:id="_tUtUDBeJEeaSnPa8lPs-cw" id="__xibQARrEeGb2dr9_uAKEQ" name="TalendString"/>
+  </parameters>
+  <node xmi:id="_tUtUDReJEeaSnPa8lPs-cw" componentName="cLoadBalancer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="192">
+    <elementParameter xmi:id="_tUtUDheJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cLoadBalancer_1" show="false"/>
+    <elementParameter xmi:id="_tUtUDxeJEeaSnPa8lPs-cw" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\TOS_ESB-20150722_1933-V6.0.1SNAPSHOT\configuration\lib\java" show="false"/>
+    <elementParameter xmi:id="_tUtUEBeJEeaSnPa8lPs-cw" field="CLOSED_LIST" name="STRATEGY" value="roundRobin"/>
+    <elementParameter xmi:id="_tUtUEReJEeaSnPa8lPs-cw" field="CLOSED_LIST" name="LANGUAGES" value="xpath" show="false"/>
+    <elementParameter xmi:id="_tUtUEheJEeaSnPa8lPs-cw" field="TEXT" name="EXPRESSION" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_tUtUExeJEeaSnPa8lPs-cw" field="RADIO" name="BASIC_MODE" value="true" show="false"/>
+    <elementParameter xmi:id="_tUtUFBeJEeaSnPa8lPs-cw" field="RADIO" name="EXCEPTION_MODE" value="false" show="false"/>
+    <elementParameter xmi:id="_tUtUFReJEeaSnPa8lPs-cw" field="RADIO" name="ROUND_ROBIN_MODE" value="false" show="false"/>
+    <elementParameter xmi:id="_tUtUFheJEeaSnPa8lPs-cw" field="TABLE" name="EXCEPTIONS" show="false"/>
+    <elementParameter xmi:id="_tUtUFxeJEeaSnPa8lPs-cw" field="CLOSED_LIST" name="MAXFAILATTEMPT" value="ALWAYS" show="false"/>
+    <elementParameter xmi:id="_tUtUGBeJEeaSnPa8lPs-cw" field="TEXT" name="ATTEMPT_NUMBER" value="3" show="false"/>
+    <elementParameter xmi:id="_tUtUGReJEeaSnPa8lPs-cw" field="CLOSED_LIST" name="INHERIT_ERROR_HANDLER" value="true" show="false"/>
+    <elementParameter xmi:id="_tUtUGheJEeaSnPa8lPs-cw" field="CLOSED_LIST" name="USE_ROUND_ROBIN" value="false" show="false"/>
+    <elementParameter xmi:id="_tUtUGxeJEeaSnPa8lPs-cw" field="TEXT" name="CUSTOM_LOAD_BALANCER" value="MyCustomLoadBalancer" show="false"/>
+    <elementParameter xmi:id="_tUtUHBeJEeaSnPa8lPs-cw" field="TEXT" name="LABEL" value="SimpleLoadBalancer"/>
+    <elementParameter xmi:id="_tUtUHReJEeaSnPa8lPs-cw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_tUtUHheJEeaSnPa8lPs-cw" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="128">
+    <elementParameter xmi:id="_tUtUHxeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_tUtUIBeJEeaSnPa8lPs-cw" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\TOS_ESB-20150722_1933-V6.0.1SNAPSHOT\configuration\lib\java" show="false"/>
+    <elementParameter xmi:id="_tUtUIReJEeaSnPa8lPs-cw" field="TEXT" name="LOGGING_CATEGORY" value="&quot;logOne_cLog_1&quot;"/>
+    <elementParameter xmi:id="_tUtUIheJEeaSnPa8lPs-cw" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_tUtUIxeJEeaSnPa8lPs-cw" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_tUtUJBeJEeaSnPa8lPs-cw" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_tUtUJReJEeaSnPa8lPs-cw" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_tUtUJheJEeaSnPa8lPs-cw" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_tUtUJxeJEeaSnPa8lPs-cw" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_tUtUKBeJEeaSnPa8lPs-cw" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_tUtUKReJEeaSnPa8lPs-cw" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_tUtUKheJEeaSnPa8lPs-cw" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_tUtUKxeJEeaSnPa8lPs-cw" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_tUtULBeJEeaSnPa8lPs-cw" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_tUtULReJEeaSnPa8lPs-cw" field="TEXT" name="MESSAGE" value="&quot;one&quot;" show="false"/>
+    <elementParameter xmi:id="_tUtULheJEeaSnPa8lPs-cw" field="TEXT" name="LABEL" value="logOne"/>
+    <elementParameter xmi:id="_tUtULxeJEeaSnPa8lPs-cw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_tUtUMBeJEeaSnPa8lPs-cw" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="256">
+    <elementParameter xmi:id="_tUtUMReJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+    <elementParameter xmi:id="_tUtUMheJEeaSnPa8lPs-cw" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\TOS_ESB-20150722_1933-V6.0.1SNAPSHOT\configuration\lib\java" show="false"/>
+    <elementParameter xmi:id="_tUtUMxeJEeaSnPa8lPs-cw" field="TEXT" name="LOGGING_CATEGORY" value="&quot;logTwo_cLog_2&quot;"/>
+    <elementParameter xmi:id="_tUtUNBeJEeaSnPa8lPs-cw" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_tUtUNReJEeaSnPa8lPs-cw" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_tUtUNheJEeaSnPa8lPs-cw" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_tUtUNxeJEeaSnPa8lPs-cw" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_tUtUOBeJEeaSnPa8lPs-cw" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_tUtUOReJEeaSnPa8lPs-cw" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_tUtUOheJEeaSnPa8lPs-cw" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_tUtUOxeJEeaSnPa8lPs-cw" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_tUtUPBeJEeaSnPa8lPs-cw" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_tUtUPReJEeaSnPa8lPs-cw" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_tUtUPheJEeaSnPa8lPs-cw" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_tUtUPxeJEeaSnPa8lPs-cw" field="TEXT" name="MESSAGE" value="&quot;two&quot;" show="false"/>
+    <elementParameter xmi:id="_tUtUQBeJEeaSnPa8lPs-cw" field="TEXT" name="LABEL" value="logTwo"/>
+    <elementParameter xmi:id="_tUtUQReJEeaSnPa8lPs-cw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node xmi:id="_tUtUQheJEeaSnPa8lPs-cw" componentName="cTimer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+    <elementParameter xmi:id="_tUtUQxeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+    <elementParameter xmi:id="_tUtURBeJEeaSnPa8lPs-cw" field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\TOS_ESB-20150722_1933-V6.0.1SNAPSHOT\configuration\lib\java" show="false"/>
+    <elementParameter xmi:id="_tUtURReJEeaSnPa8lPs-cw" field="TEXT" name="PERIOD" value="1000"/>
+    <elementParameter xmi:id="_tUtURheJEeaSnPa8lPs-cw" field="TEXT" name="REPEATCOUNT" value="0"/>
+    <elementParameter xmi:id="_tUtURxeJEeaSnPa8lPs-cw" field="TEXT" name="DELAY" value="1000"/>
+    <elementParameter xmi:id="_tUtUSBeJEeaSnPa8lPs-cw" field="CHECK" name="FIXEDRATE" value="false"/>
+    <elementParameter xmi:id="_tUtUSReJEeaSnPa8lPs-cw" field="CHECK" name="DAEMON" value="true"/>
+    <elementParameter xmi:id="_tUtUSheJEeaSnPa8lPs-cw" field="CHECK" name="SET_TIME" value="false"/>
+    <elementParameter xmi:id="_tUtUSxeJEeaSnPa8lPs-cw" field="TEXT" name="TIME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_tUtUTBeJEeaSnPa8lPs-cw" field="LABEL" name="NOTE" value="(yyyy-MM-dd HH:mm:ss | yyyy-MM-dd'T'HH:mm:ss)" show="false"/>
+    <elementParameter xmi:id="_tUtUTReJEeaSnPa8lPs-cw" field="TEXT" name="LABEL" value="timer"/>
+    <elementParameter xmi:id="_tUtUTheJEeaSnPa8lPs-cw" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection xmi:id="_tUtUTxeJEeaSnPa8lPs-cw" connectorName="LOADBALANCE" label="route2" lineStyle="14" metaname="cLoadBalancer_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="cLoadBalancer_1" target="cLog_1">
+    <elementParameter xmi:id="_tUtUUBeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  </connection>
+  <connection xmi:id="_tUtUUReJEeaSnPa8lPs-cw" connectorName="LOADBALANCE" label="route3" lineStyle="14" metaname="cLoadBalancer_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="cLoadBalancer_1" target="cLog_2">
+    <elementParameter xmi:id="_tUtUUheJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  </connection>
+  <connection xmi:id="_tUtUUxeJEeaSnPa8lPs-cw" connectorName="ROUTE" label="route1" lineStyle="14" metaname="cTimer_1" offsetLabelX="0" offsetLabelY="0" source="cTimer_1" target="cLoadBalancer_1">
+    <elementParameter xmi:id="_tUtUVBeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <note xmi:id="_tUtUVReJEeaSnPa8lPs-cw" opaque="true" posX="32" posY="32" sizeHeight="64" sizeWidth="641" text="A simple load balancer, will generate request every second and log&#xD;&#xA;with logger 'one' or 'two'">
+    <elementParameter xmi:id="_tUtUVheJEeaSnPa8lPs-cw" field="TEXT" name="FONT_SIZE" value="11"/>
+  </note>
+  <subjob xmi:id="_tUtUVxeJEeaSnPa8lPs-cw">
+    <elementParameter xmi:id="_tUtUWBeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cLoadBalancer_1" show="false"/>
+    <elementParameter xmi:id="_tUtUWReJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_tUtUWheJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_tUtUWxeJEeaSnPa8lPs-cw">
+    <elementParameter xmi:id="_tUtUXBeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_tUtUXReJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_tUtUXheJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_tUtUXxeJEeaSnPa8lPs-cw">
+    <elementParameter xmi:id="_tUtUYBeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cLog_2" show="false"/>
+    <elementParameter xmi:id="_tUtUYReJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_tUtUYheJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_tUtUYxeJEeaSnPa8lPs-cw">
+    <elementParameter xmi:id="_tUtUZBeJEeaSnPa8lPs-cw" field="TEXT" name="UNIQUE_NAME" value="cTimer_1" show="false"/>
+    <elementParameter xmi:id="_tUtUZReJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+    <elementParameter xmi:id="_tUtUZheJEeaSnPa8lPs-cw" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>
