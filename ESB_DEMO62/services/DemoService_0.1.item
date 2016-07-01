@@ -11,6 +11,9 @@
     <additionalInfo xmi:id="_N_ozVzaREeW5QZolsS7JQg" key="LogMessages" value="false"/>
     <additionalInfo xmi:id="_N_ozWDaREeW5QZolsS7JQg" key="WsdlSchemaValidation" value="false"/>
     <additionalInfo xmi:id="_N_ozWTaREeW5QZolsS7JQg" key="useBusinessCorrelation" value="false"/>
+    <additionalInfo xmi:id="_wO0iUD9iEeaiSscjJOcyAQ" key="groupId" value="org.example.git"/>
+    <additionalInfo xmi:id="_wO0iUT9iEeaiSscjJOcyAQ" key="artifactId" value="DemoService"/>
+    <additionalInfo xmi:id="_wO0iUj9iEeaiSscjJOcyAQ" key="version" value="0.1.0"/>
   </Services:ServiceConnection>
   <Services:ServicePort xmi:id="_eld-QSASEeGcz7LQVWZhpA" name="DemoServicePortType" id="_elcwICASEeGcz7LQVWZhpA" serviceOperation="_eld-QiASEeGcz7LQVWZhpA"/>
   <Services:ServiceOperation xmi:id="_eld-QiASEeGcz7LQVWZhpA" label="DemoServiceOperation-DemoServicePortType_DemoServiceOperation" name="DemoServiceOperation" id="_eldXMCASEeGcz7LQVWZhpA" referenceJobId="_gcGvwCASEeGcz7LQVWZhpA"/>
