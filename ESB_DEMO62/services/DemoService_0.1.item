@@ -7,7 +7,7 @@
     <additionalInfo xmi:id="_N_ozUzaREeW5QZolsS7JQg" key="Security.SAML" value="false"/>
     <additionalInfo xmi:id="_N_ozVDaREeW5QZolsS7JQg" key="Authorization" value="false"/>
     <additionalInfo xmi:id="_N_ozVTaREeW5QZolsS7JQg" key="Encryption" value="false"/>
-    <additionalInfo xmi:id="_N_ozVjaREeW5QZolsS7JQg" key="UseServiceRegisrty" value="false"/>
+    <additionalInfo xmi:id="_N_ozVjaREeW5QZolsS7JQg" key="UseServiceRegisrty" value="true"/>
     <additionalInfo xmi:id="_N_ozVzaREeW5QZolsS7JQg" key="LogMessages" value="false"/>
     <additionalInfo xmi:id="_N_ozWDaREeW5QZolsS7JQg" key="WsdlSchemaValidation" value="false"/>
     <additionalInfo xmi:id="_N_ozWTaREeW5QZolsS7JQg" key="useBusinessCorrelation" value="false"/>
